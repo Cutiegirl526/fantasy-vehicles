@@ -16,12 +16,3 @@ class SuperCar extends vehicleDetails{
     this.managesEmployee = [];
   }
 
-  addEmployee(employee){
-    this.managesEmployee.push(employee);
-  }
-}
-
-let bob = new Manager('Bob', 'Thorn');
-//console.log(bob.getFullName());
-bob.addEmployee('Cindy', 'Zak', 'Tyler');
-console.log(bob.managesEmployee);
